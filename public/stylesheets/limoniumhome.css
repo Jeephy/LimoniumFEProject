@@ -1,0 +1,50 @@
+h1 {
+    padding: 1em 1em;
+}
+.container-fluid {
+    background-color: rgba(0,50,0,0.6); /*#112211; */
+}
+#navTitle {
+    padding-top: 0.6em;
+    padding-left: 3em;
+    font-size: x-large;
+    color: #67b168;
+}
+#navHead {
+    padding-top: 0.4em;
+    padding-left: 3em;
+    font-size: medium;
+    font-weight: 500;
+}
+#navLogin {
+    padding-top: 0.4em;
+    padding-right: 3em;
+    font-size: medium;
+    font-weight: 500;
+}
+.vertical-down {
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    background: linear-gradient(#ffffff,rgba(143,250,255,0.7));
+}
+#iMac {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#drawer {
+    margin-top: 180px;
+    margin-left: 20px;
+}
+#books {
+    margin-top: 200px;
+    margin-left: 0;
+}
+#alarm {
+    margin-top: 110px;
+    margin-left: 30px;
+}
+#coffee {
+    margin-top: 200px;
+    margin-left: 50px;
+}

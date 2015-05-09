@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/bootstrap/bootstrap-3.3.4/docs/_includes/getting-started/template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/bootstrap/bootstrap-3.3.4/docs/_includes/getting-started/template.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/bootstrap/bootstrap-3.3.4/docs/_includes/js/buttons.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/bootstrap/bootstrap-3.3.4/docs/_includes/js/buttons.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/stylesheets/limoniumhome.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/about.handlebars" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/home.handlebars" charset="UTF-8" />
+  </component>
+</project>
