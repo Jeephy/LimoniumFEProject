@@ -5,20 +5,20 @@ h1 {
     background-color: rgba(0,50,0,0.6); /*#112211; */
 }
 #navTitle {
-    padding-top: 0.6em;
-    padding-left: 3em;
+    margin-top: 0.1em;
+    margin-left: 2em;
     font-size: x-large;
     color: #67b168;
 }
 #navHead {
-    padding-top: 0.4em;
-    padding-left: 3em;
+    margin-top: 0.4em;
+    margin-left: 1em;
     font-size: medium;
     font-weight: 500;
 }
 #navLogin {
-    padding-top: 0.4em;
-    padding-right: 3em;
+    margin-top: 0.4em;
+    margin-right: 2em;
     font-size: medium;
     font-weight: 500;
 }
