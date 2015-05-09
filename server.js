@@ -2,7 +2,7 @@
 //   “星辰花”项目主程序
 //    Limonium Project Main Program
 //
-//    Version 0.2.0
+//    Version 0.2.0  (Starting Front-End Development)
 //
 //            Created by Jeephy Ji on 2015/05/09.
 // ===================================================================
@@ -82,11 +82,11 @@ app.use(function(req, res) {
     res.render('404');
 });
 
-app.use(function(err, req, res, next) {
-    console.error(err.stack);
-    res.status(500);
-    res.render('500');
-});
+//app.use(function(err, req, res, next) {
+//    console.error(err.stack);
+//    res.status(500);
+//    res.render('500');
+//});
 // ---------------------------------------------------------
 
 
