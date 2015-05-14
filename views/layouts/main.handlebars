@@ -19,26 +19,31 @@
 
 </head>
 <body>
-<div class="container">
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <ul class="nav navbar-nav">
-                    <li><a href="#" class="navbar-brand" id="navTitle">Limonium</a></li>
-                </ul>
-            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-header">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#" class="navbar-brand" id="navTitle">Limonium</a></li>
+                        </ul>
+                    </div>
 
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav" id="navHead">
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">常见问题</a></li>
-                    <li><a href="#">联系</a></li>
-                    <li><a href="#">关于</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right" id="navLogin">
-                    <li><a href="#" class="navbar-right">登录 | 注册</a></li>
-                </ul>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav" id="navHead">
+                            <li class="nav-current" role="presentation" id="navCurrent">
+                                <a href="#">首页</a>
+                            </li>
+                            <li><a href="#">常见问题</a></li>
+                            <li><a href="#">联系</a></li>
+                            <li><a href="#">关于</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right" id="navLogin">
+                            <li><a href="#" class="navbar-right">登录 | 注册</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -47,24 +52,73 @@
     <br>
     <br>
 
-    <div class="vertical-down">
+    <section class="main-Content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" id="mainContent">
+                    <h1>Hi, I am Coming ... ...<br><small>^_^，我来了！</small></h1>
 
-        <h1>Hi, I am Coming ... ...<br><small>^_^，我来了！</small></h1>
+                    <img id="drawer" src="asset/images/drawer-2.png" width="60" height="60"/>
+                    <img id="books" src="asset/images/books-3.png" width="40" height="40"/>
+                    <img id="iMac" src="asset/images/imac.png" width="90" height="90"/>
+                    <img id="alarm" src="asset/images/alarm-clock.png" width="40" height="40"/>
+                    <img id="coffee" src="asset/images/coffee-cup-2.png" width="30" height="30"/>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <img id="drawer" src="asset/images/drawer-2.png" width="60" height="60"/>
-        <img id="books" src="asset/images/books-3.png" width="40" height="40"/>
-        <img id="iMac" src="asset/images/imac.png" width="90" height="90"/>
-        <img id="alarm" src="asset/images/alarm-clock.png" width="40" height="40"/>
-        <img id="coffee" src="asset/images/coffee-cup-2.png" width="30" height="30"/>
-        <br>
-        <br>
-    </div>
+    <article class="interactive-Content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" id="interactiveContent">
+                    {{{body}}}
+                </div>
+            </div>
+        </div>
+    </article>
 
-    {{{body}}}
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer-Content">
+        <div class="container" id="footerContent">
+            <div class="row">
+                <div class="col-md-2">
+                    <img id="limonium" src="asset/images/limonium.gif" width="40" height="40"/>
+                </div>
+                <div class="col-md-2" id="footerCn1">
+                    <h4>平台指南</h4>
+                    <li><a href="#">了解平台</a></li>
+                    <li><a href="#">注册新用户</a></li>
+                    <li><a href="#">消费指南</a></li>
+                    <li><a href="#">商务指南</a></li>
+                    <li><a href="#">常见问题</a></li>
+                </div>
+
+            </div>
+            <br>
+            <br>
+        </div>
+    </footer>
+
+    <comment class="col-md-12 center-block">
+        <p>
+            <strong>Hello our world !</strong>
+        <br>人类的胃口太贪婪，我们能不能换种方法
+        <br>再不行动就太迟了
+        </p>
+    </comment>
 
     {{{_sections.jquery}}}
-
-</div>
 
 </body>
 </html>

@@ -1,6 +1,7 @@
 h1 {
     padding: 1em 1em;
 }
+
 .container-fluid {
     background-color: rgba(0,50,0,0.6); /*#112211; */
 }
@@ -16,16 +17,18 @@ h1 {
     font-size: medium;
     font-weight: 500;
 }
+#navCurrent {
+    border-bottom: 3px solid #C6E746;
+    margin-bottom: -2px;
+}
 #navLogin {
     margin-top: 0.4em;
     margin-right: 2em;
     font-size: medium;
     font-weight: 500;
 }
-.vertical-down {
-    height: 100%;
-    width: 100%;
-    background: #ffffff;
+
+#mainContent {
     background: linear-gradient(#ffffff,rgba(143,250,255,0.7));
 }
 #iMac {
@@ -47,4 +50,24 @@ h1 {
 #coffee {
     margin-top: 200px;
     margin-left: 50px;
+}
+
+#footerContent {
+    background-color: #eeeeee;
+    padding-top: 1em;
+}
+#limonium {
+    margin-top: 2em;
+    margin-left: 5em;
+}
+#footerCn1 {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+comment {
+    text-align: center;
+    color: #555555;
+    padding: 2em;
+    line-height: 2em;
 }
